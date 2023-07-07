@@ -1,0 +1,34 @@
+#aboutUs{
+    padding: 0 6rem 1rem 6rem;
+    width: 100%;
+    margin-top: 6rem;
+    display: grid;
+    grid-template-rows: 500px 300px 300px;
+}
+
+.aboutUs-container-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.aboutUs-box{
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.aboutUs-container{
+    margin-top: 2rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.m-left{
+    margin-right: 1rem;
+}
