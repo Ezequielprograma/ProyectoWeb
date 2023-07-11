@@ -7,11 +7,11 @@
 
 #carouselExample{
     margin-top: 6rem;
-    width: min-content;
+    width: 100%;
 }
 
 .carousel-box{
-    width: 1400px;
+    width: 100%;
     height: 560px;
     border: 1px solid black;
     background: rgb(165, 165, 165);
