@@ -1,9 +1,8 @@
 #aboutUs{
-    padding: 0 6rem 1rem 6rem;
     width: 100%;
     margin-top: 6rem;
     display: grid;
-    grid-template-rows: 500px 300px 300px;
+    grid-template-rows: 2fr 1fr 1fr;
 }
 
 .aboutUs-container-info{
@@ -18,7 +17,6 @@
     align-items: center;
     text-align: center;
 }
-
 
 .aboutUs-container{
     margin-top: 2rem;

@@ -1,17 +1,15 @@
 #Packages{
-    margin-bottom: 3rem;
-    padding: 0 6rem 1rem 6rem;
     width: 100%;
 }
 
 #packages-banner{
     height: 200px;
     width: 100%;
-    margin: 3rem 0rem 1rem 0rem;
     border:  1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1rem 0rem 1rem 0rem;
 }
         
 #packages-container{
@@ -47,14 +45,13 @@
 
 .packages-box-element-img{
     height: 200px;
-    width: 100%;
+    width: 200px;
+    background: rgb(165, 165, 165);
+    text-align: center;
 }
 
-.packages-box-element-img img{
-    height: 100%;
-    width: 100%;
-    border-radius: 1rem;
-}
+
+
 
 .packages-box-element-info{
     display: flex;

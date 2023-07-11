@@ -1,19 +1,23 @@
 /*--------------------------GENERAL-------------------------*/
 #inicio{
-    margin-top: 12rem;
-    padding: 0 6rem 1rem 6rem;
     width: 100%;
 }
 
 /*--------------------------BANNER SLIDE-------------------------*/
 
 #carouselExample{
-    margin-bottom: 6rem;
+    margin-top: 6rem;
+    width: min-content;
 }
 
-.banner-img{
-    height: 400px;
+.carousel-box{
+    width: 1400px;
+    height: 560px;
+    border: 1px solid black;
+    background: rgb(165, 165, 165);
+    text-align: center;
 }
+
 
 /*--------------------------PACKAGES SLIDE-------------------------*/
 
@@ -21,6 +25,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 6rem 0rem 1rem 0rem;
 }
 
 .title-packages{
@@ -34,13 +39,16 @@
     flex-direction: row;
 }
 
-.carousel-box{
+.carousel-package-box{
     display: grid;
     grid-template-rows: auto 1fr;
 }
 
-.card-img-top{
-    height: 300px;
+.card-box-img{
+    width: 100%;
+    height: 250px;
+    background: rgb(165, 165, 165);
+    text-align: center;
 }
 
 .top-border{
@@ -52,16 +60,17 @@
 #introduction{
     align-items: center;
     display: grid;
-    grid-template-columns: auto 50%;
+    grid-template-columns: 50% 50%;
     height: 80vh;
     justify-content: center;
-    margin: 3rem 0 3rem 0;
 }
 
-.introduction-img{
+.introduction-box-img{
     height: 80%;
     margin-right: 1rem;
     width: 90%;
+    background: rgb(165, 165, 165);
+    text-align: center;
 }
 
 .introduction-box{
@@ -106,6 +115,8 @@
 }
 
 .review-card-img{
+    background: rgb(165, 165, 165);
+    text-align: center;
     height: 300px;
 }
 
@@ -118,10 +129,11 @@
 #social-networks{
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
     padding-bottom: 6rem;
     height: 80vh;
-    padding: 0 6rem 1rem 6rem;
+    margin-bottom: 6rem;
+
 }
 
 .social-network-box{
@@ -137,8 +149,11 @@
     width: 50px;
 }  
 
-.social-network-img{
+.social-network-box-img{
     border-radius: 2rem;
     height: 500px;
-    width: 100%;
+    width: 500px;
+    background: rgb(165, 165, 165);
+    text-align: center;
+
 }
