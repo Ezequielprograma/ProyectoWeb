@@ -1,0 +1,39 @@
+
+/*--------------------------INTRODUCTION-------------------------*/
+
+#introduction{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    justify-content: center;
+}
+
+.introduction-box-img{
+    margin-right: 1rem;
+    width: 100%;    
+}
+
+.introduction-box{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.introduction-text{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.introduction_button{
+    border: 1px solid black;
+    height: min-content;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0 1rem 0 1rem;
+    width: 200px;
+}
+
+.introduction_button a{
+    text-decoration: none;
+}

@@ -1,0 +1,33 @@
+/*--------------------------PACKAGES SLIDE-------------------------*/
+
+.container-title-packages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title-packages{
+    border: 1px solid black;
+    text-align: center;
+    width: min-content;
+}
+
+.corousel-package{
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-package-box{
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.card-box-img{
+    width: 100%;
+    text-align: center;
+}
+
+
+.top-border{
+    border-top: 1px solid grey;
+}

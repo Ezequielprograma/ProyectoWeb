@@ -1,8 +1,9 @@
 /*--------------------------GENERAL-------------------------*/
 header{   
     display: flex;
-    width: 100%; 
-    top: 0%;
+    top: 0;
+    left: 0;
+    right: 0;
     background: whitesmoke;
     flex-direction: row;
     justify-content:space-between;
