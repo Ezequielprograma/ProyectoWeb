@@ -4,14 +4,10 @@
 #introduction{
     align-items: center;
     display: grid;
-    grid-template-columns: 50% 50% ;
+    grid-template-columns: 1fr 1fr ;
     justify-content: center;
 }
 
-.introduction-box-img{
-    margin-right: 1rem;
-    width: 100%;    
-}
 
 .introduction-box{
     align-items: center;
@@ -22,18 +18,36 @@
 
 .introduction-text{
     font-size: 1.5rem;
-    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    text-align:left;
 }
 
 .introduction_button{
-    border: 1px solid black;
-    height: min-content;
-    padding: 0.5rem;
-    text-align: center;
-    margin: 0 1rem 0 1rem;
-    width: 200px;
+    color: white;
+    background: #5C4A72;
+    text-decoration: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1.2rem;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
 }
 
 .introduction_button a{
     text-decoration: none;
+}
+.contrafondo-img{
+    width: 500px;
+    height: 500px;
+    background: #5C4A72;
+    display: flex;
+}
+
+.img-intro{
+    width: 500px;
+    z-index: 1;
+    position:relative;
+    left: 70px;
+    top: 40px;
 }

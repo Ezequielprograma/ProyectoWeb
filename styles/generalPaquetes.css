@@ -7,27 +7,52 @@
 }
 
 .title-packages{
-    border: 1px solid black;
+    font-size: 4rem;
     text-align: center;
-    width: min-content;
+    color: #5C4A72;
+    margin-bottom: 1rem;
 }
 
 .corousel-package{
     display: flex;
     flex-direction: row;
+    color: black;
 }
 
 .carousel-package-box{
     display: grid;
     grid-template-rows: auto 1fr;
+    background:  #fae4cc;
+    border-radius:  0rem 0rem 3rem 3rem;
 }
 
-.card-box-img{
-    width: 100%;
-    text-align: center;
+.card-border{
+    border-radius:  3rem 3rem 0rem 0rem;
 }
 
 
 .top-border{
-    border-top: 1px solid grey;
+    border-top: 2px solid black;
+    padding-top: 1rem;
+   
 }
+
+.packages-buttom{
+    color: white;
+    background: #5C4A72;
+    text-decoration: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1.2rem;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.emphasized { font-style: italic; }
+
+.top-border h6,.top-border h5{
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+}
+
