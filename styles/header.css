@@ -37,7 +37,6 @@ header{
     top: 0%;
     border-radius: 50%;
     transform: rotate(1deg);
-    box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.2);  
 }
 
 .header-logo:active{
