@@ -15,8 +15,9 @@ header{
 .header-fondo{
     width: 100%;
 }
+
 .header-logo{
-    width: 12%;
+    width: 100%;
     cursor: pointer;
     display: flex;
     position: inherit;
@@ -27,8 +28,30 @@ header{
     box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.logo-enlace{
+    width: 12%;
+    cursor: pointer;
+    display: flex;
+    position: inherit;
+    left: 5.5%;
+    top: 0%;
+    border-radius: 50%;
+    transform: rotate(1deg);
+    box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.2);  
+}
+
 .header-logo:active{
     box-shadow: none;
+}
+
+.enlace-logo{
+    display: flex;
+    position: inherit;
+    left: 5.5%;
+    top: 0%;
+    border-radius: 50%;
+    background-image: url(./assets/icons/logo.png);
+
 }
 
 nav{

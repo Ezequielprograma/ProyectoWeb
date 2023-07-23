@@ -9,13 +9,15 @@ a{
     font-family: 'Work Sans', sans-serif;
 }
 
+p{
+    font-family: 'Work Sans', sans-serif;
+}
 /*Fuentes para titulos*/
 h1,h2,h3,h5{
     font-family: 'Francois One', sans-serif;
 }
 
 body{
-
    background:#fcf0e0;
 }
 
@@ -27,8 +29,4 @@ section{
 
 .carrusel-img{
     width: 100%;
-}
-
-#carouselExampleAutoplaying{
-    margin-top:  12rem;
 }

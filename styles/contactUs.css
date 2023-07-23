@@ -23,24 +23,20 @@ form h2{
     text-align: center;
     font-size: 3rem;
     color: white;
-    
-font-family: 'Julius Sans One', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 
 }
 
 form{
-
     padding: 1rem;
     border-radius: 1rem;
-    border: 1px solid black;
     width: 100%;
     text-align: center;
     background: #f4ae58 ;
     display: flex;
     flex-direction: column;
-    align-items: center;
-   
+    align-items: center; 
 }
 
 form input {
