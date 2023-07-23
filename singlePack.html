@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.5">
 
     <link rel="stylesheet" href="./styles/singlePack.css">
     <link rel="stylesheet" href="./styles/generalPaquetes.css">
@@ -24,11 +24,7 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Poppins:ital,wght@0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">    
     
     <title>PYM</title>
 </head>
@@ -42,13 +38,17 @@
     </a>
 
     <nav>
-      <a class='header_button  text-decoration-none' href="./index.html">Inicio</a>
-      <a class='header_button  text-decoration-none' href="#general-packages">Paquetes</a>
-      <a class='header_button  text-decoration-none' href="#aboutUs">Nosotros</a>
-      <a class='header_button  text-decoration-none' href="#contactUs">Contactanos</a>
-      <a href=""> <img src="./assets/icons/iconowpp.png" alt=""></a>
-      <a href=""><img src="./assets/icons/iconovideollamada.png" alt=""></a>
+      <a class='header_button  text-decoration-none texto-botones' href="./index.html">INICIO</a>
+      <a class='header_button  text-decoration-none texto-botones' href="#general-packages">PAQUETES</a>
+      <a class='header_button  text-decoration-none texto-botones' href="#aboutUs">NOSOTROS</a>
+      <a class='header_button  text-decoration-none texto-botones' href="#contactUs">CONTACTANOS</a>
+      <span>
+        <a href=""> <img src="./assets/icons/iconowpp.png" alt="" class="logo-llamada"></a>
+        <a href=""><img src="./assets/icons/iconovideollamada.png" alt=""  class="logo-llamada"></a>
+      </span>
+     
     </nav>
+
   </header>
 
     <section>
@@ -58,28 +58,28 @@
     <section id="singlePack-presentation" class="sp-padding">
 
             <div class="singlePack-box-left">
-              <h1>NOMBRE DEL DESTINO</h1>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nihil nam culpa illum magni. Mollitia esse aut debitis, autem ea enim quis quas, quaerat molestiae commodi, doloribus ratione inventore quibusdam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cum blanditiis hic voluptatem iusto nemo porro deleniti? Placeat ab voluptate, at pariatur voluptatibus quisquam modi deleniti officiis in ducimus neque!</p>
+              <h1 class="singlePack-titulo titulo">NOMBRE DEL DESTINO</h1>
+              <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nihil nam culpa illum magni. Mollitia esse aut debitis, autem ea enim quis quas, quaerat molestiae commodi, doloribus ratione inventore quibusdam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cum blanditiis hic voluptatem iusto nemo porro deleniti? Placeat ab voluptate, at pariatur voluptatibus quisquam modi deleniti officiis in ducimus neque!</p>
               <div class="singlePack-icons">
                 <div>
                   <img src="./assets/icons/avionicon.png" alt="" class="social-network-icon">
-                  <h5 class="text-center">Aviones</h5>
+                  <h5 class="text-center texto">Aviones</h5>
                 </div>
                <div>
                 <img src="./assets/icons/comidaicon.png" alt="" class="social-network-icon">
-                <h5 class="text-center">Comida</h5>
+                <h5 class="text-center texto">Comida</h5>
                </div>
                 <div>
                   <img src="./assets/icons/excursionicon.png" alt="" class="social-network-icon">
-                  <h5 class="text-center">Excursiones</h5>
+                  <h5 class="text-center texto">Excursiones</h5>
                 </div>
                 <div>
                   <img src="./assets/icons/hotelicon.png" alt="" class="social-network-icon">
-                  <h5 class="text-center">Hoteles</h5>
+                  <h5 class="text-center texto">Hoteles</h5>
                 </div>
                 <div>
                   <img src="./assets/icons/microicon.png" alt="" class="social-network-icon">
-                  <h5 class="text-center">Micros</h5>
+                  <h5 class="text-center texto">Micros</h5>
                 </div>
                 
               </div>
@@ -87,16 +87,16 @@
 
             <div class="singlePack-box-right">
               <div class="singlePack-form-box">
-                <h2>Precio <br>$----</h2>
+                <h2 class="texto">Precio <br>$----</h2>
                 
                 <div class="singlePack-form-box-2">
-                   <label for="semana"  class="input-precio"> <input type="radio" id="dolar" value="D" name="precio">USD</label>
-                   <label for="fin"  class="input-precio"> <input type="radio" id="peso" value="P" name="precio">ARS</label>
+                   <label for="semana"  class="input-precio texto"> <input type="radio" id="dolar" value="D" name="precio">USD</label>
+                   <label for="fin"  class="input-precio texto"> <input type="radio" id="peso" value="P" name="precio">ARS</label>
                 </div>
               </div>
 
                 <form>
-                  <h2>Formulario</h2>
+                  <h2 class="singlePack-titulo titulo">Formulario</h2>
                   <input type="text"  placeholder="Nombre Completo">
                   <input type="text"  placeholder="Correo electrónico">
                   <input type="text"  placeholder="Destino">
@@ -104,72 +104,67 @@
                   <input type="text"  placeholder="Monto a gastar">
 
                   <div class="justify-content-center">
-                    <button  class="singlePack-consultar-buttom">Consultar</button>
+                    <button  class="singlePack-consultar-buttom texto">Consultar</button>
                   </div>
 
                 </form>
             </div>
     </section> 
 
-    <section id="singlePackTours" class="sp-padding">
-      <div class="singlePackTours-box-left">
 
-
-      
-          <div class="container-fluid">
-
-            <div id="carouselExampleAutoplaying" class="carousel slide w-90" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div style="font-size: 1.5rem; text-align: left;"  >
-                    <img src="./assets/img/destino1.png" alt="" style="width: 500px; float: left; padding: 15px;">
-                    <h1 class="titulo">NOMBRE EXCURSION</h1>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis repudiandae eaque tempore? Architecto rem ipsam hic saepe voluptates. Dolore error et facere tempora, optio corrupti necessitatibus non quia laboriosam qui.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis earum a similique sunt exercitationem explicabo? Aliquid, quo, ab illo officia quaerat voluptates aspernatur ipsa, temporibus numquam voluptate nisi corrupti repudiandae.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quis consequatur impedit perferendis, qui soluta rem recusandae perspiciatis amet fuga tenetur eos vitae voluptatibus autem vel voluptate eum libero magnam!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quo quis quisquam ipsa harum ducimus distinctio nesciunt porro quaerat ullam culpa exercitationem beatae facilis nulla minima ratione odio, a sunt.
+    <section>
+      <div id="singlePackTours" class="sp-padding">
+        <div class="singlePackTours-box-left">
+            <div class="container-fluid">
+  
+              <div id="carouselExampleAutoplaying" class="carousel slide w-90" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div style="font-size: 1.5rem; text-align: left;"  >
+                      <img src="./assets/img/destino1.png" alt="" style="width: 500px; float: left; padding: 15px;">
+                      <h1 class="singlePack-titulo titulo">NOMBRE EXCURSION</h1>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis repudiandae eaque tempore? Architecto rem ipsam hic saepe voluptates. Dolore error et facere tempora, optio corrupti necessitatibus non quia laboriosam qui.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem explicabo fuga rerum debitis aspernatur blanditiis optio tempore amet culpa quos. Voluptatem et nostrum aperiam recusandae a reprehenderit officia, saepe facere?
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad similique aut nostrum sint quia nisi totam dolore, qui consequatur porro? Ipsam aperiam praesentium magnam aspernatur, ab atque cum velit nisi.  
                     </div>
-                </div>
-                <div class="carousel-item">
-                  <div style="font-size: 1.5rem; text-align: left;"  >
-                    <img src="./assets/img/destino2.png" alt="" style="width: 500px; float: left; padding: 15px;">
-                    <h1 class="titulo">NOMBRE EXCURSION</h1>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis repudiandae eaque tempore? Architecto rem ipsam hic saepe voluptates. Dolore error et facere tempora, optio corrupti necessitatibus non quia laboriosam qui.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis earum a similique sunt exercitationem explicabo? Aliquid, quo, ab illo officia quaerat voluptates aspernatur ipsa, temporibus numquam voluptate nisi corrupti repudiandae.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quis consequatur impedit perferendis, qui soluta rem recusandae perspiciatis amet fuga tenetur eos vitae voluptatibus autem vel voluptate eum libero magnam!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quo quis quisquam ipsa harum ducimus distinctio nesciunt porro quaerat ullam culpa exercitationem beatae facilis nulla minima ratione odio, a sunt.
+                  </div>
+                  <div class="carousel-item">
+                    <div style="font-size: 1.5rem; text-align: left;" class="texto" >
+                      <img src="./assets/img/destino2.png" alt="" style="width: 400px; float: left; padding: 15px;">
+                      <h1 class="singlePack-titulo titulo">NOMBRE EXCURSION</h1>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis repudiandae eaque tempore? Architecto rem ipsam hic saepe voluptates. Dolore error et facere tempora, optio corrupti necessitatibus non quia laboriosam qui.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque numquam impedit labore adipisci? Corrupti voluptates explicabo nostrum. Rerum accusamus reiciendis fuga blanditiis dicta, deserunt, dolorem vitae nobis alias, labore debitis.
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis eligendi perspiciatis, maxime amet iusto nesciunt dicta expedita sit quaerat eos explicabo placeat temporibus fugit quisquam odio cupiditate, voluptatum nemo soluta?
                     </div>
+                  </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+  
+  
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-
-
             </div>
-          </div>
-        
-
-     
-
-      </div>
-
-      <div class="singlePackTours-box-right">
-        <h1 class="titulo">INFO IMPORTANTE</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aut obcaecati mollitia praesentium vitae nihil, magni eius cum nisi deserunt ullam quo ea totam doloribus saepe dolore asperiores? Voluptas, eius!
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum explicabo dolorum neque magnam soluta corrupti voluptates fugit odio, ex tempore debitis omnis architecto perspiciatis dicta a consequatur iure fugiat.
-        </p>
+        </div>
+  
+        <div class="singlePackTours-box-right">
+          <h1 class="singlePack-titulo titulo">INFO IMPORTANTE</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aut obcaecati mollitia praesentium vitae nihil, magni eius cum nisi deserunt ullam quo ea totam doloribus saepe dolore asperiores? Voluptas, eius!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum explicabo dolorum neque magnam soluta corrupti voluptates fugit odio, ex tempore debitis omnis architecto perspiciatis dicta a consequatur iure fugiat.
+          </p>
+        </div>
       </div>
     </section>
+   
 
     <section>
       <div class="container-fluid">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="./assets/img/parisbanner.png" class="d-block w-100" alt="...">
@@ -178,11 +173,11 @@
               <img src="./assets/img/parisbanner2.png" class="d-block w-100" alt="...">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -192,7 +187,7 @@
 
     <section id="general-packages">
       <div class="container-title-packages">
-          <h1 class="title-packages">NUESTROS PAQUETES</h1>
+          <h1 class="singlePack-titulo titulo">NUESTROS PAQUETES</h1>
       </div>
        
         <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
@@ -204,77 +199,77 @@
                     <div class="card mx-2" style="width: 25%; border-radius: 3rem;">   
                       <img src="./assets/img/destino1.png" alt="" class="w-100 card-border">
                       <div class="card-body carousel-package-box">
-                          <div class="carousel-box-min">
-                            <h4 class="card-title">Nombre destino</h4>
-                            <h5>Ubicación</h5>
+                        <div class="carousel-box-min">
+                          <h4 class="card-title titulo">Nombre destino</h4>
+                          <h5 class="texto">Ubicación</h5>
+                        </div>
+                        <div class="top-border">
+                          <h6 class="texto">Costo por persona</h6>
+                          <h5 class="texto">$100000</h5>
+                          <span class="emphasized texto">Incluye tasas, impuestos y cargos..</span>
+                          <div class="d-flex justify-content-end">
+                            <a href="./singlePack.html" class="packages-buttom texto">Ver mas</a>
                           </div>
-                          <div class="top-border">
-                            <h6>Costo por persona</h6>
-                            <h5>$100000</h5>
-                            <span class="emphasized">Incluye tasas, impuestos y cargos..</span>
-                            <div class="d-flex justify-content-end">
-                              <a href="./singlePack.html" class="packages-buttom">Ver mas</a>
-                            </div>
-                          </div>
-                      </div>
+                        </div>
+                    </div>
                     </div>
 
                     <div class="card mx-2" style="width: 25%; border-radius: 3rem;">
                      
                         <img src="./assets/img/destino2.png" alt=""  class="w-100 card-border">
                   
-                      <div class="card-body carousel-package-box">
-                        <div class="carousel-box-min">
-                          <h4 class="card-title">Nombre destino</h4>
-                          <h5>Ubicación</h5>
-                        </div>
-                        <div  class="top-border">
-                          <h5>Costo por persona</h5>
-                          <h5>$100000</h5>
-                          <span class="emphasized">Incluye tasas, impuestos y cargos..</span>
-                          <div class="d-flex justify-content-end">
-                            <a href="./singlePack.html" class="packages-buttom">Ver mas</a>
+                        <div class="card-body carousel-package-box">
+                          <div class="carousel-box-min">
+                            <h4 class="card-title titulo">Nombre destino</h4>
+                            <h5 class="texto">Ubicación</h5>
                           </div>
-                        </div>
-                    </div>
+                          <div class="top-border">
+                            <h6 class="texto">Costo por persona</h6>
+                            <h5 class="texto">$100000</h5>
+                            <span class="emphasized texto">Incluye tasas, impuestos y cargos..</span>
+                            <div class="d-flex justify-content-end">
+                              <a href="./singlePack.html" class="packages-buttom texto">Ver mas</a>
+                            </div>
+                          </div>
+                      </div>
                     </div>
                     <div class="card mx-2" style="width: 25%; border-radius: 3rem;">
                       
                         <img src="./assets/img/destino3.png" alt=""  class="w-100  card-border">
                    
                         <div class="card-body carousel-package-box">
-                          <div>
-                            <h4 class="card-title">Nombre destino</h4>
-                            <h5>Ubicación</h5>
+                          <div class="carousel-box-min">
+                            <h4 class="card-title titulo">Nombre destino</h4>
+                            <h5 class="texto">Ubicación</h5>
                           </div>
-                          <div  class="top-border">
-                            <h5>Costo por persona</h5>
-                            <h5>$100000</h5>
-                            <span class="emphasized">Incluye tasas, impuestos y cargos..</span>
+                          <div class="top-border">
+                            <h6 class="texto">Costo por persona</h6>
+                            <h5 class="texto">$100000</h5>
+                            <span class="emphasized texto">Incluye tasas, impuestos y cargos..</span>
                             <div class="d-flex justify-content-end">
-                              <a href="./singlePack.html" class="packages-buttom">Ver mas</a>
+                              <a href="./singlePack.html" class="packages-buttom texto">Ver mas</a>
                             </div>
                           </div>
-                        </div>
+                      </div>
                     </div>
                     <div class="card mx-2" style="width: 25%; border-radius: 3rem;">
                     
                         <img src="./assets/img/destino4.png" alt=""  class="w-100  card-border">
                   
-                      <div class="card-body carousel-package-box">
-                        <div>
-                          <h4 class="card-title">Nombre destino</h4>
-                          <h5>Ubicación</h5>
-                        </div>
-                        <div  class="top-border">
-                          <h5>Costo por persona</h5>
-                          <h5>$100000</h5>
-                          <span class="emphasized">Incluye tasas, impuestos y cargos..</span>
-                          <div class="d-flex justify-content-end">
-                            <a href="./singlePack.html" class="packages-buttom">Ver mas</a>
+                        <div class="card-body carousel-package-box">
+                          <div class="carousel-box-min">
+                            <h4 class="card-title titulo">Nombre destino</h4>
+                            <h5 class="texto">Ubicación</h5>
                           </div>
-                        </div>
-                    </div>
+                          <div class="top-border">
+                            <h6 class="texto">Costo por persona</h6>
+                            <h5 class="texto">$100000</h5>
+                            <span class="emphasized texto">Incluye tasas, impuestos y cargos..</span>
+                            <div class="d-flex justify-content-end">
+                              <a href="./singlePack.html" class="packages-buttom texto">Ver mas</a>
+                            </div>
+                          </div>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -284,36 +279,36 @@
                   <div class="card-box-img">
                     <img src="./assets/img/destino1.png" alt="" class="w-100">
                   </div>
-                    <div class="card-body carousel-package-box">
-                      <div>
-                        <h4 class="card-title">Nombre destino</h4>
-                        <h5>Ubicación</h5>
+                  <div class="card-body carousel-package-box">
+                    <div class="carousel-box-min">
+                      <h4 class="card-title titulo">Nombre destino</h4>
+                      <h5 class="texto">Ubicación</h5>
+                    </div>
+                    <div class="top-border">
+                      <h6 class="texto">Costo por persona</h6>
+                      <h5 class="texto">$100000</h5>
+                      <span class="emphasized texto">Incluye tasas, impuestos y cargos..</span>
+                      <div class="d-flex justify-content-end">
+                        <a href="./singlePack.html" class="packages-buttom texto">Ver mas</a>
                       </div>
-                      <div  class="top-border">
-                        <h5>Costo por persona</h5>
-                        <h5>$100000</h5>
-                        <span class="emphasized">Incluye tasas, impuestos y cargos..</span>
-                        <div class="d-flex justify-content-end">
-                          <a href="./singlePack.html" class="packages-buttom">Ver mas</a>
-                        </div>
-                      </div>
-                  </div>
+                    </div>
+                </div>
                   </div>
                   <div class="card mx-2" style="width: 25%;">
                     <div class="card-box-img">
                       <img src="./assets/img/destino2.png" alt="" class="w-100">
                     </div>
                     <div class="card-body carousel-package-box">
-                      <div>
-                        <h5 class="card-title">Nombre del Destino</h5>
-                        <h6>Ubicación</h6>
+                      <div class="carousel-box-min">
+                        <h4 class="card-title titulo">Nombre destino</h4>
+                        <h5 class="texto">Ubicación</h5>
                       </div>
-                      <div  class="top-border">
-                        <h5>Costo por persona</h5>
-                        <h5>$100000</h5>
-                        <span class="emphasized">Incluye tasas, impuestos y cargos..</span>
+                      <div class="top-border">
+                        <h6 class="texto">Costo por persona</h6>
+                        <h5 class="texto">$100000</h5>
+                        <span class="emphasized texto">Incluye tasas, impuestos y cargos..</span>
                         <div class="d-flex justify-content-end">
-                          <a href="./singlePack.html" class="packages-buttom">Ver mas</a>
+                          <a href="./singlePack.html" class="packages-buttom texto">Ver mas</a>
                         </div>
                       </div>
                   </div>
@@ -323,16 +318,16 @@
                       <img src="./assets/img/destino3.png" alt="" class="w-100">
                     </div>
                     <div class="card-body carousel-package-box">
-                      <div>
-                        <h5 class="card-title">Nombre del Destino</h5>
-                        <h6>Ubicación</h6>
+                      <div class="carousel-box-min">
+                        <h4 class="card-title titulo">Nombre destino</h4>
+                        <h5 class="texto">Ubicación</h5>
                       </div>
-                      <div  class="top-border">
-                        <h5>Costo por persona</h5>
-                        <h5>$100000</h5>
-                        <span class="emphasized">Incluye tasas, impuestos y cargos..</span>
-                        <div class="d-flex justify-content-center">
-                          <a href="./singlePack.html" class="packages-buttom">Ver mas</a>
+                      <div class="top-border">
+                        <h6 class="texto">Costo por persona</h6>
+                        <h5 class="texto">$100000</h5>
+                        <span class="emphasized texto">Incluye tasas, impuestos y cargos..</span>
+                        <div class="d-flex justify-content-end">
+                          <a href="./singlePack.html" class="packages-buttom texto">Ver mas</a>
                         </div>
                       </div>
                   </div>
@@ -342,16 +337,16 @@
                       <img src="./assets/img/destino4.png" alt="" class="w-100">
                     </div>
                     <div class="card-body carousel-package-box">
-                      <div>
-                        <h5 class="card-title">Nombre del Destino</h5>
-                        <h6>Ubicación</h6>
+                      <div class="carousel-box-min">
+                        <h4 class="card-title titulo">Nombre destino</h4>
+                        <h5 class="texto">Ubicación</h5>
                       </div>
-                      <div  class="top-border">
-                        <h5>Costo por persona</h5>
-                        <h5>$100000</h5>
-                        <span class="emphasized">Incluye tasas, impuestos y cargos..</span>
-                        <div class="d-flex justify-content-center">
-                          <a href="./singlePack.html" class="packages-buttom">Ver mas</a>
+                      <div class="top-border">
+                        <h6 class="texto">Costo por persona</h6>
+                        <h5 class="texto">$100000</h5>
+                        <span class="emphasized texto">Incluye tasas, impuestos y cargos..</span>
+                        <div class="d-flex justify-content-end">
+                          <a href="./singlePack.html" class="packages-buttom texto">Ver mas</a>
                         </div>
                       </div>
                   </div>
@@ -377,7 +372,7 @@
 
     <footer id="footer">
 
-      <h1 >También podes encontrarnos en:</h1>
+      <h1 class="singlePack-titulo titulo" >También podes encontrarnos en:</h1>
         
          <div class="footer-box">
              <img src="./assets/icons/facebook.png" alt="" class="footer-icon">

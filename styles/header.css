@@ -8,8 +8,7 @@ header{
     align-items: center;
     position: fixed;
     z-index: 2;
-    font-size:  1.5rem;
-
+    font-size:  1.2rem;
 }
 
 .header-fondo{
@@ -58,16 +57,10 @@ nav{
     align-content: flex-end;
     align-items: center;
     position: inherit;
-    right:  10%;
-    top: 3%;
+    right: 0;
+    top: 1%;
 }
 
-nav img{
-    width: 100px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    
-}
 
 nav img:hover{
  
@@ -95,4 +88,9 @@ small{
 a{
     text-decoration: none;
     color: black;
+}
+
+
+.logo-llamada{
+    width: 20%;
 }
