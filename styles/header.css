@@ -102,7 +102,7 @@ a{
     background-size: cover;
     cursor: pointer;
 }
-
+/*
 #btn-inicio,#btn-paquete, #btn-nosotros, #btn-contactanos, #btn-wpp, #btn-videollamada, #btn-cerrar{
     display: block !important;
 }
@@ -111,18 +111,7 @@ a{
     display: flex;
     flex-direction: row;
 }
-
-/*
-@media screen and (min-width: 1024px){
-    #btn-inicio,#btn-paquete, #btn-nosotros, #btn-contactanos, #btn-wpp, #btn-videollamada, #btn-cerrar{
-        display: block !important;
-    }
-
-    .btn-redondos{
-        display: flex;
-        flex-direction: row;
-    }
-}*/
+*/
 
 
 /*===================MEDIA QUERIES(MEDIUM DIVICES)===================*/
@@ -135,7 +124,7 @@ a{
     }
 
     #btn-inicio,#btn-paquete, #btn-nosotros, #btn-contactanos, #btn-wpp, #btn-videollamada, #btn-cerrar{
-        display: none ;
+        display: none;
     }
 
     nav{
@@ -160,6 +149,32 @@ a{
         padding-bottom : 5px;
         border : 3px solid #F3AF5A;
     }
+    nav:hover #btn-inicio{
+        display: block;
+    }
+
+    nav:hover #btn-paquete{
+        display: block;
+    }
+    nav:hover #btn-nosotros{
+        display: block;
+    }
+    nav:hover #btn-contactanos{
+        display: block;
+    }
+
+    nav:hover #btn-wpp{
+        display: block;
+    }
+
+    nav:hover #btn-videollamada
+    {
+        display: block;
+    }
+
+
+
+   
 
     .logo-llamada{
         width: 30px;
