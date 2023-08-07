@@ -29,21 +29,29 @@
 <body>
   <header>
     <img src="./assets/icons/header.png" alt="" class="header-fondo">
-
+   
     <a href="./index.html" class="logo-enlace"> 
       <img src="./assets/icons/logo.png" alt="" class="header-logo">
     </a>
-    <nav>
-      <a class='header_button  text-decoration-none texto-botones' href="./index.html">INICIO</a>
-      <a class='header_button  text-decoration-none texto-botones' href="#general-packages">PAQUETES</a>
-      <a class='header_button  text-decoration-none texto-botones' href="#aboutUs">NOSOTROS</a>
-      <a class='header_button  text-decoration-none texto-botones' href="#contactUs">CONTACTANOS</a>
-      <span>
-        <a href=""> <img src="./assets/icons/iconowpp.png" alt="" class="logo-llamada"></a>
-        <a href=""><img src="./assets/icons/iconovideollamada.png" alt=""  class="logo-llamada"></a>
-      </span>
+
+    <nav id="menu-desplegable" onmouseout="cerrarMenu()" onmouseover="desplegarMenu()" >
+      
+      <a id="btn-inicio" class='header_button  text-decoration-none texto-botones' href="./index.html">INICIO</a>
+      <a id="btn-paquete" class='header_button  text-decoration-none texto-botones' href="#general-packages">PAQUETES</a>
+      <a id="btn-nosotros" class='header_button  text-decoration-none texto-botones' href="#aboutUs">NOSOTROS</a>
+      <a id="btn-contactanos" class='header_button  text-decoration-none texto-botones' href="#contactUs">CONTACTANOS</a>
      
+      <div class="btn-redondos">
+        <a id="btn-wpp" href="" class="logo-llamada"> <img src="./assets/icons/iconowpp.png" alt="" class="logo-llamada"></a>
+        <a id="btn-videollamada" href="" class="logo-llamada"><img src="./assets/icons/iconovideollamada.png" alt=""  class="logo-llamada"></a>
+      </div>
+      
     </nav>
+    
+
+<script src="./Javascript/navMenu.js"></script>
+    
+    
 
   </header>
   
@@ -416,6 +424,7 @@
         </div>
      
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
