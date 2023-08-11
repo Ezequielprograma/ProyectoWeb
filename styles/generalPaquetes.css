@@ -47,6 +47,7 @@
     margin-right: 2rem;
     cursor: pointer;
     margin-top: 1rem;
+    width: auto;
 }
 
 .emphasized { font-style: italic; }

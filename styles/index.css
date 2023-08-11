@@ -12,14 +12,22 @@ section{
     background:#fcf0e0;
 }
 
-.carrusel-img{
-    width: 100%;
-}
-
 .titulo{
     font-family: 'Francois One', sans-serif;
 }
 
 .texto-botones{
     font-family: 'Poppins', sans-serif;
+}
+
+
+/*===================MEDIA QUERIES(MEDIUM DIVICES)===================*/
+
+@media screen and (max-width: 1024px){
+
+    section{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+   
 }

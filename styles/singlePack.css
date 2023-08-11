@@ -44,7 +44,7 @@
 .singlePack-box-left{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    padding: 0 2rem 0 2rem;
+    margin-right: 2rem;
 }
 
 
@@ -52,11 +52,12 @@
     font-size: 3rem;
     text-align: left;
     color: #5C4A72;
-    margin-bottom: 1rem;
+    margin: 0%;
+    
 }
 
 .singlePack-box-left P{    
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 
@@ -65,7 +66,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-content:flex-end;
-    padding: 3rem 3rem 0 3rem;
+   margin-right: 2rem;
 }
 
 .social-network-icon{
@@ -79,7 +80,7 @@
     flex-direction: column;    
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    
 }
 
 .singlePack-form-box{
@@ -87,14 +88,13 @@
     justify-content: center;
     border-radius: 1rem;
    
-    width: 300px;
     margin: 1rem;
     margin-bottom: 1rem;
     
     padding: 1rem;
     border-radius: 1rem;
    
-    width: 80%;
+    width: 100%;
     text-align: center;
     background: #f4ae58 ;
     color: white;
@@ -132,14 +132,19 @@
     display: grid;
     grid-template-columns: 70% 30%;
     height: 80vh;
-    padding: 2rem;
     justify-content: center;
+    align-items: center;
 }
 
+.singlePackTours-box-left{
+    margin: 0;
+    margin-right: 3rem;
+    padding: 0;
+}
 
 .singlePackTours-box-left p{
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
 }
 
@@ -147,12 +152,13 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 1rem;
+   
 }
 
 .singlePackTours-box-right p{
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin: 0rem 1rem 0rem 1rem;
 }
 
 /*-------------------GALERY--------------------*/

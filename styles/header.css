@@ -1,5 +1,6 @@
 header{
     display: flex;
+    width: 100%;
     top: 0;
     left: 0;
     right: 0;
@@ -9,7 +10,6 @@ header{
     position: fixed;
     z-index: 2;
     font-size:  1.2rem;
-
 }
 
 .header-fondo{
@@ -72,10 +72,11 @@ nav img:hover{
 }
 
 .header_button{
-    padding: 0.5rem;
-    margin: 0 1rem 0 1rem;
-    height: min-content;
+    margin: 0 2rem 0 2rem;  
     color: white;
+    
+    text-decoration: none;
+    text-align: center;
 }
 
 .header_button:hover{
@@ -83,10 +84,7 @@ nav img:hover{
 }
 
 
-a{
-    text-decoration: none;
-    color: black;
-}
+
 
 .logo-llamada{
     width: 60px;  
@@ -102,16 +100,12 @@ a{
     background-size: cover;
     cursor: pointer;
 }
-/*
-#btn-inicio,#btn-paquete, #btn-nosotros, #btn-contactanos, #btn-wpp, #btn-videollamada, #btn-cerrar{
-    display: block !important;
-}
 
 .btn-redondos{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
-*/
 
 
 /*===================MEDIA QUERIES(MEDIUM DIVICES)===================*/
@@ -173,9 +167,6 @@ a{
     }
 
 
-
-   
-
     .logo-llamada{
         width: 30px;
     }
@@ -185,10 +176,4 @@ a{
         justify-content: center;
         width: 100%;
     }
-}
-
-/*===================MEDIA QUERIES(SMALL DIVICES)===================*/
-@media screen and (max-width: 600px){
- 
-    
 }

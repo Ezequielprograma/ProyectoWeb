@@ -2,41 +2,42 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+   
 }
 
 .contactUs-title{
     font-size: 4rem;
     padding-left: 2rem;
-    text-align:left;
+    text-align:center;
     color: #5C4A72;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .contactUs-container{
     display: grid;
     grid-template-columns: 3fr 2fr;
-    justify-content: center;
+    justify-content: space-between;
+}
 
+
+form{
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 80%;
+    text-align: center;
+    background: #f4ae58 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 0rem 2rem 0rem 0rem;
+    height: 100%;
 }
 
 form h2{
     text-align: center;
     font-size: 3rem;
     color: white;
-}
-
-form{
-    padding: 1rem;
-    border-radius: 1rem;
-    width: 100%;
-    text-align: center;
-    background: #f4ae58 ;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    height: min-content;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 form input {
@@ -53,11 +54,11 @@ textarea{
   justify-content: center;
 
   flex-direction: column;
-  padding: 0rem 3rem 0rem 3rem;
+  
 }
 
 .contactUs-box-right-title{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .contactUs-box-right-text{
@@ -67,11 +68,9 @@ textarea{
 .contact-box-item{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 500px;
-    margin: 1rem 0rem 1rem 0rem;
- 
 }
 
 .contact-box-item img{
