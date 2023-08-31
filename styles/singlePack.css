@@ -42,18 +42,23 @@
 }
 
 .singlePack-box-left{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-right: 2rem;
 }
 
 
 .singlePack-box-left h1{    
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: left;
-    color: #5C4A72;
+    color: #0062E0;
     margin: 0%;
-    
+    width: 100%;
+}
+
+.video-flori{
+    margin: 1rem 0 1rem 0;
 }
 
 .singlePack-box-left P{    
@@ -62,16 +67,29 @@
 
 
 .singlePack-icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content:flex-end;
-   margin-right: 2rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 80%;
+   margin-top: 1rem;
 }
 
-.social-network-icon{
-    width: 100px;
-    height: 100px;
+.singlePack-icons div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FF6700;
+    
+}
+
+.singlePack-icons div h1{
+    font-size: 5px;
+}
+
+.social-icon{
+    width: 50px;
+    height: 50px;
     margin-bottom: 1rem;
 }
 
@@ -80,24 +98,38 @@
     flex-direction: column;    
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .singlePack-form-box{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     border-radius: 1rem;
-   
-    margin: 1rem;
-    margin-bottom: 1rem;
-    
-    padding: 1rem;
     border-radius: 1rem;
-   
     width: 100%;
     text-align: center;
-    background: #f4ae58 ;
+    background: #FF6700 ;
     color: white;
+    height: 100px;
+}
+
+.singlePack-form-box h2{
+    font-size: 1.5rem;
+}
+
+.singlePack-form-box-2 label{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-weight: 100 ;
+}
+
+
+
+form{
+    width: 100%;
+    
 }
 
 .singlePack-form-box-2{
@@ -110,7 +142,7 @@
 
 .singlePack-consultar-buttom{
     color: white;
-    background: #5C4A72;
+    background: #0062E0;
     text-decoration: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 1.2rem;
@@ -122,7 +154,7 @@
 }
 
 .input-precio{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 
@@ -176,9 +208,18 @@
 }
 
 .singlePack-titulo{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: left;
-    color: #5C4A72;
+    color: #0062E0;
     margin-bottom: 1rem;
     margin-left: 1rem;
 }
+
+
+/*------------------------------formulario---------------------------*/
+
+.formulario_contacto{
+    margin-top: 1rem;
+    width: 500px;
+}
+
