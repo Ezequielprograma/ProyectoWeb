@@ -25,7 +25,7 @@ header{
     top: 0%;
     border-radius: 50%;
     transform: rotate(1deg);
-    box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.2);*/
 }
 
 .logo-enlace{
@@ -55,6 +55,7 @@ header{
 nav{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: inherit;
     right: 5.5%;
     top: 0;
@@ -72,8 +73,8 @@ nav img:hover{
 }
 
 .header_button{
-    margin: 0 2rem 0 2rem;  
-    color: white;
+    margin: 2rem 3rem 0 2rem;  
+    color: #FF6700;
     
     text-decoration: none;
     text-align: center;
@@ -82,8 +83,6 @@ nav img:hover{
 .header_button:hover{
     color: #F3AF5A;
 }
-
-
 
 
 .logo-llamada{
@@ -102,8 +101,9 @@ nav img:hover{
 }
 
 .btn-redondos{
+    margin-left: 4rem;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     width: 100%;
 }
 

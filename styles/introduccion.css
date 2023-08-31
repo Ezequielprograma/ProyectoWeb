@@ -4,8 +4,8 @@
 #introduction{
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    justify-content: center;
+    grid-template-columns: 2fr 1fr ;
+    justify-content: space-between;
 }
 
 
@@ -16,9 +16,16 @@
     justify-content: space-around;
 }
 
+.introduccion-title {
+    font-size: 3rem;
+    text-align:center;
+    color: #0062E0;
+    margin-bottom: 6rem;
+}
 .introduction-text{
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align:left;
+    margin-right: 3rem;
 }
 
 .introduction_button{
@@ -40,7 +47,7 @@
 .contrafondo-img{
     width: 500px;
     height: 500px;
-    background: #5C4A72;
+    background: #0062E0;
     display: flex;
 }
 
@@ -48,6 +55,6 @@
     width: 500px;
     z-index: 1;
     position:relative;
-    left: 70px;
-    top: 40px;
+    right: 30px;
+    top: 30px;
 }

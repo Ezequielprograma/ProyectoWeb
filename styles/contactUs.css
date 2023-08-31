@@ -6,10 +6,10 @@
 }
 
 .contactUs-title{
-    font-size: 4rem;
+    font-size: 2rem;
     padding-left: 2rem;
-    text-align:center;
-    color: #5C4A72;
+    text-align:left;
+    color: #0062E0;
     margin-bottom: 2rem;
 }
 
@@ -25,7 +25,7 @@ form{
     border-radius: 1rem;
     width: 80%;
     text-align: center;
-    background: #f4ae58 ;
+    background: #FF6700   ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -51,7 +51,7 @@ textarea{
 }
 .contactUs-box-right{
   display: flex;
-  justify-content: center;
+  justify-content: right;
 
   flex-direction: column;
   
@@ -82,7 +82,7 @@ textarea{
 
 .contactUs-buttom{
     color: white;
-    background: #5C4A72;
+    background: #0062E0;
     text-decoration: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 1.2rem;

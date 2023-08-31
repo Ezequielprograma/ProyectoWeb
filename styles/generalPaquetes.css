@@ -7,9 +7,10 @@
 }
 
 .title-packages{
-    font-size: 4rem;
+    font-size: 2rem;
+    font-weight: 500;
     text-align: center;
-    color: #5C4A72;
+    color: #0062E0;
     margin-bottom: 1rem;
 }
 
@@ -22,8 +23,9 @@
 .carousel-package-box{
     display: grid;
     grid-template-rows: auto 1fr;
-    background:  #fae4cc;
+    background:  #FFFFFF;
     border-radius:  0rem 0rem 3rem 3rem;
+    border: 2px grey solid;
 }
 
 .card-border{
@@ -32,14 +34,13 @@
 
 
 .top-border{
-    border-top: 2px solid black;
+    border-top: 2px solid grey;
     padding-top: 1rem;
-   
 }
 
 .packages-buttom{
     color: white;
-    background: #5C4A72;
+    background: #FF9800;
     text-decoration: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 1.2rem;

@@ -3,7 +3,8 @@
 footer{
 
     background: #fcf0e0 url(../assets/icons/footer.png);
-    height: 30rem;
+    background-size: contain;
+    height: 15rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: end;
@@ -29,12 +30,14 @@ footer h1{
     width: 50%;
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
 }
 
 a{
-    width: 25%;
-    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    
 }
 
 .footer-icon{
