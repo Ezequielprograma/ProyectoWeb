@@ -92,3 +92,30 @@ textarea{
     margin-top: 1rem;
     border: none;
 }
+
+
+
+/*===================MEDIA QUERIES(MEDIUM DIVICES)===================*/
+
+@media screen and (max-width: 1024px){
+   
+
+    .contactUs-title{
+        text-align:center;
+       
+    }
+
+
+    form{
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .contactUs-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

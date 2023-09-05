@@ -1,15 +1,13 @@
 /*--------------------------FOOTER-------------------------*/
 
 footer{
-
     background: #fcf0e0 url(../assets/icons/footer.png);
     background-size: contain;
     height: 15rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: end;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
     justify-items: center;
     padding-bottom: 7rem;
 }
@@ -18,13 +16,7 @@ footer h1{
     color: white;
 }
 
-.footer-title{
-  width: 100%;
-}
 
-.footer-title{
-    width: 50%;
-}
 
 .footer-box{
     width: 50%;
@@ -50,4 +42,19 @@ a{
     font-size: 1rem;
     font-weight: 100;
     text-align: center;
+}
+
+/*===================MEDIA QUERIES(MEDIUM DIVICES)===================*/
+
+@media screen and (max-width: 1024px){
+
+
+    footer h1{
+        margin-left: 0.5rem;
+    }
+
+    a{
+        margin-left: 10px;
+    }
+    
 }

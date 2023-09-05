@@ -58,3 +58,44 @@
     right: 30px;
     top: 30px;
 }
+
+
+/*===================MEDIA QUERIES(MEDIUM DIVICES)===================*/
+
+@media screen and (max-width: 1024px){
+    #introduction{
+        align-items: center;
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+    }
+
+    .introduccion-title {
+        font-size: 3rem;
+        text-align:center;
+        color: #0062E0;
+        margin-bottom: 1rem;
+    }
+
+    .contrafondo-img{
+        width: 500px;
+        height: 500px;
+        background: #0062E0;
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    
+    .img-intro{
+        width: 500px;
+        z-index: 1;
+        position:relative;
+        right: 0;
+        top: 0;
+    }
+
+    .introduction-text{
+       text-align:justify;
+       margin: 0;
+    }
+    
+}
