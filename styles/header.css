@@ -63,10 +63,10 @@ nav{
 
     transition: all 0s ease;
 }
-
+/*
 nav img:hover{
     filter: invert(78%) sepia(82%) saturate(613%) hue-rotate(317deg) brightness(102%) contrast(91%);
-}
+}*/
 
 #btn-burger{
     display: none;
@@ -86,7 +86,8 @@ nav img:hover{
 
 
 .logo-llamada{
-    width: 60px;  
+    width: 60px;
+    margin:0 0.5rem 0 0.5rem ;  
 }
 
 #btn-cerrar{
@@ -101,7 +102,7 @@ nav img:hover{
 }
 
 .btn-redondos{
-    margin-left: 4rem;
+    margin-left: 3rem;
     display: flex;
     justify-content: right;
     width: 100%;
@@ -129,19 +130,20 @@ nav img:hover{
         width: 50px;
         height: 50px;
         cursor: pointer;
-      
+        
     }
 
     nav:hover{
         background-image:none;
         display:flex;
         flex-direction:column;
-        background : #EF6C50;
+        background :   #FF6700;
         width : auto;
         height : auto;
         border-radius : 1rem;
         padding-bottom : 5px;
         border : 3px solid #F3AF5A;
+        
     }
     nav:hover #btn-inicio{
         display: block;
@@ -169,11 +171,21 @@ nav img:hover{
 
     .logo-llamada{
         width: 30px;
+        height: auto;
+       margin:auto;
     }
 
     .btn-redondos{
-        display: flex;
-        justify-content: center;
+        background: white;
         width: 100%;
+        margin: 0;
+       border-radius: 1rem;
     }
+
+    .header_button{
+        color: white;
+        margin-left: 0;
+    }
+
+
 }
