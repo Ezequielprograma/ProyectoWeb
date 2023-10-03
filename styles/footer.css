@@ -1,7 +1,7 @@
 /*--------------------------FOOTER-------------------------*/
 
 footer{
-    background: #fcf0e0 url(../assets/icons/footer.png);
+    background: #fcf0e0 url(../assets/img/footer.png);
     background-size: contain;
     height: 15rem;
     display: grid;
@@ -42,6 +42,12 @@ a{
     font-size: 1rem;
     font-weight: 100;
     text-align: center;
+}
+
+.facebook-icon{
+    height: 80%;
+    width: 100%;
+   
 }
 
 /*===================MEDIA QUERIES(MEDIUM DIVICES)===================*/

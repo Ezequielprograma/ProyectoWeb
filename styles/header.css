@@ -71,11 +71,15 @@ nav img:hover{
 #btn-burger{
     display: none;
 }
-
+#contenedor_enlaces{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+}
 .header_button{
     margin: 2rem 3rem 0 2rem;  
     color: #FF6700;
-    
     text-decoration: none;
     text-align: center;
 }
@@ -102,7 +106,7 @@ nav img:hover{
 }
 
 .btn-redondos{
-    margin-left: 3rem;
+    margin-left: 5rem;
     display: flex;
     justify-content: right;
     width: 100%;
