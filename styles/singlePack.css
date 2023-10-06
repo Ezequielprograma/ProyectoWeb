@@ -24,7 +24,7 @@
 }
 
 .singlePack-img{
-    margin-top: 12rem;
+    margin-top: 4.5rem;
     width: 100%;
 }
 
@@ -48,7 +48,6 @@
     margin-right: 2rem;
 }
 
-
 .singlePack-box-left h1{    
     font-size: 2.5rem;
     text-align: left;
@@ -67,10 +66,10 @@
 
 
 .singlePack-icons{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows:1fr 1fr;
+   width: 700px;
    margin-top: 1rem;
 }
 
@@ -80,11 +79,27 @@
     justify-content: center;
     align-items: center;
     color: #FF6700;
-    
 }
 
 .singlePack-icons div h1{
     font-size: 5px;
+}
+
+#ida_vuelta{
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+#alojamiento{
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
+#salud{
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+#prof{
+    grid-column: 4 / 5;
+    grid-row: 2;
 }
 
 .social-icon{

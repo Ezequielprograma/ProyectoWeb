@@ -38,63 +38,69 @@
 <body>
   
   <!----------------------------------------CABECERA------------------------------------>
+  
   <header>
-    <img src="./assets/img/header.png" alt="" class="header-fondo">
+    <img src="./assets/imagenes/generales/header.png" alt="" class="header-fondo">
   
     <a href="./index.html" class="logo-enlace"> 
-      <img src="./assets/icons/logo.png" alt="" class="header-logo">
+      <img src="./assets/imagenes/generales/logo.png" alt="" class="header-logo">
     </a>
 
     <nav>
-      <a id="btn-inicio" class='header_button  text-decoration-none texto-botones' href="./index.html">INICIO</a>
-      <a id="btn-paquete" class='header_button  text-decoration-none texto-botones' href="#general-packages">PAQUETES</a>
-      <a id="btn-nosotros" class='header_button  text-decoration-none texto-botones' href="#aboutUs">NOSOTROS</a>
-      <a id="btn-contactanos" class='header_button  text-decoration-none texto-botones' href="#contactUs">CONTACTANOS</a>
+      
+        <a id="btn-inicio" class='header_button  text-decoration-none texto-botones' href="./index.html" style="margin-right: 0;">INICIO</a>
+        <a id="btn-paquete" class='header_button  text-decoration-none texto-botones' href="#general-packages">PAQUETES</a>
+        <a id="btn-nosotros" class='header_button  text-decoration-none texto-botones' href="#aboutUs">NOSOTROS</a>
+        <a id="btn-contactanos" class='header_button  text-decoration-none texto-botones' href="#contactUs">CONTACTANOS</a>
     
       <div class="btn-redondos">
-        <a id="btn-wpp" href="" class="logo-llamada"> <img src="./assets/icons/iconowpp.png" alt="" class="logo-llamada"></a>
-        <a id="btn-videollamada" href="" class="logo-llamada"><img src="./assets/icons/iconovideollamada.png" alt=""  class="logo-llamada"></a>
+        <a id="whatsapp" href="https://api.whatsapp.com/send/?phone=541144372532" target="_blank" class="logo-llamada"> <img src="./assets/iconos/redes/header/iconowpp.png" alt="" class="logo-llamada"></a>
+        <a id="btn-videollamada" href="" class="logo-llamada"><img src="./assets/iconos/redes/header/iconovideollamada.png" alt=""  class="logo-llamada"></a>
       </div>
       
     </nav>
 
   </header>
+<!--------------------------PORTADA----------------------------------->
+  <section>
+       <img src="./assets/imagenes/florianopolis/portada/portada_flor.jpg" alt="" class="singlePack-img">       
+  </section>
 
-    <section>
-       <img src="./assets/img/paquetebanner.jpg" alt="" class="singlePack-img">       
-    </section>
-
-    <section id="singlePack-presentation" class="sp-padding">
+<!--------------------------VIDEO, SERVICIOS, FORMULARIO, PRECIO----------------------------------->
+  <section id="singlePack-presentation" class="sp-padding">
 
             <div class="singlePack-box-left">
               <h1 class="singlePack-titulo titulo">FLORIANÓPOLIS</h1>
               
-              <video class="video-flori" src="/assets/img/Floripa_2024.mp4" controls width="700px"></video>
+              <video class="video-flori" src="/assets/imagenes/florianopolis/video/life.mp4" controls width="700px"></video>
              
               <div class="singlePack-icons">
 
-                <div>
-                  <img src="./assets/icons/avionicon.png" alt="" class="social-icon">
+                <div id="ida_vuelta">
+                  <img src="./assets/iconos/servicios/avionicon.png" alt="" class="social-icon">
                   <h5 class="text-center texto">IDA Y VUELTA</h5>
                 </div>
 
-               <div>
-                <img src="./assets/icons/alojamientoicon.png" alt="" class="social-icon">
+               <div  id="alojamiento">
+                <img src="./assets/iconos/servicios/alojamientoicon.png" alt="" class="social-icon">
                 <h5 class="text-center texto">ALOJAMIENTO</h5>
                </div>
 
-                <div>
-                  <img src="./assets/icons/saludicon.png" alt="" class="social-icon">
-                  <h5 class="text-center texto">ASISTENCIA AL VIAJERO</h5>
-                </div>
-            
-                <div>
-                  <img src="./assets/icons/proficon.png" alt="" class="social-icon">
-                  <h5 class="text-center texto">EMBAJADORES TURÍSTICOS</h5>
-                </div>
-                
+               <div  id="salud">
+                <img src="./assets/iconos/servicios/saludicon.png" alt="" class="social-icon">
+                <h5 class="text-center texto">ASISTENCIA AL VIAJERO</h5>
               </div>
+          
+              <div  id="prof">
+                <img src="./assets/iconos/servicios/proficon.png" alt="" class="social-icon">
+                <h5 class="text-center texto">EMBAJADORES TURÍSTICOS</h5>
+              </div>
+
+              </div>
+             
             </div>
+            
+
 
             <div class="singlePack-box-right">
               <form class="singlePack-form-box">
@@ -119,10 +125,10 @@
                   </div>
                 </form>
             </div>
-    </section> 
+  </section> 
 
-
-    <section>
+<!--------------------------EXCURSIONES, INFO IMPORTANTE----------------------------------->
+  <section>
       <div id="singlePackTours" class="sp-padding">
         <div class="singlePackTours-box-left">
             <div class="container-fluid m-0 p-0">
@@ -130,7 +136,7 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div style="font-size: 1.5rem; text-align: left;"  >
-                      <img src="./assets/img/destino1.png" alt="" style="width: 400px; float: left; padding-right: 15px;">
+                      <img src="./assets/imagenes/florianopolis/excursiones/banner_poolparty.png" alt="" style="width: 400px; float: left; padding-right: 15px;">
                       <h1 class="singlePack-titulo titulo">POOL PARTY</h1>
                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aut obcaecati mollitia praesentium vitae nihil, magni eius cum nisi deserunt ullam quo ea totam doloribus saepe dolore asperiores? Voluptas, eius!
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum explicabo dolorum neque magnam soluta corrupti voluptates fugit odio, ex tempore debitis omnis architecto perspiciatis dicta a consequatur iure fugiat.
@@ -139,7 +145,7 @@
                   </div>
                   <div class="carousel-item">
                     <div style="font-size: 1.5rem; text-align: left;" class="texto" >
-                      <img src="./assets/img/destino2.png" alt="" style="width: 400px; float: left; padding-right: 15px;">
+                      <img src="./assets/imagenes/florianopolis/excursiones/banner_poolparty.png" alt="" style="width: 400px; float: left; padding-right: 15px;">
                       <h1 class="singlePack-titulo titulo">POOL PARTY</h1>
                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aut obcaecati mollitia praesentium vitae nihil, magni eius cum nisi deserunt ullam quo ea totam doloribus saepe dolore asperiores? Voluptas, eius!
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum explicabo dolorum neque magnam soluta corrupti voluptates fugit odio, ex tempore debitis omnis architecto perspiciatis dicta a consequatur iure fugiat.
@@ -169,30 +175,33 @@
           </p>
         </div>
       </div>
-    </section>
+  </section>
    
-
-    <section>
+<!--------------------------BANNERS DE IMAGENES----------------------------------->
+  <section>
       <div class="container-fluid">
         <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./assets/img/parisbanner.png" class="d-block w-100" alt="...">
+              <img src="./assets/imagenes/florianopolis/banner/banner_flor_1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./assets/img/paquetebanner4.png" class="d-block w-100" alt="...">
+              <img src="./assets/imagenes/florianopolis/banner/banner_flor_2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./assets/img/paquetebanner5.png" class="d-block w-100" alt="...">
+              <img src="./assets/imagenes/florianopolis/banner/banner_flor_3.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./assets/img/paquetebanner6.png" class="d-block w-100" alt="...">
+              <img src="./assets/imagenes/florianopolis/banner/banner_flor_4.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./assets/img/paquetebanner7.png" class="d-block w-100" alt="...">
+              <img src="./assets/imagenes/florianopolis/banner/banner_flor_5.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./assets/img/parisbanner 2.png" class="d-block w-100" alt="...">
+              <img src="./assets/imagenes/florianopolis/banner/banner_flor_6.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/imagenes/florianopolis/banner/banner_flor_7.jpg" class="d-block w-100" alt="...">
             </div>
             
           </div>
@@ -206,9 +215,9 @@
           </button>
         </div>
       </div>
-    </section>  
-
-    <section id="general-packages">
+  </section>  
+<!----------------------------------------MUESTRA GENERAL DE PAQUETES------------------------------------>
+  <section id="general-packages">
       <div class="container-title-packages">
           <h1 class="title-packages titulo">NUESTROS PAQUETES</h1>
       </div>
@@ -219,7 +228,7 @@
                 <div class="corousel-package">
 
                     <div class="card mx-2" style="width: 25%; border-radius: 3rem;">   
-                      <img src="./assets/img/destino1.png" alt="" class="w-100 card-border">
+                      <img src="./assets/imagenes/destinosTuristicos/destino1.png" alt="" class="w-100 card-border">
                       <div class="card-body carousel-package-box">
                           <div class="carousel-box-min">
                             <h4 class="card-title titulo">Florianópolis</h4>
@@ -227,7 +236,7 @@
                           </div>
                           <div class="top-border">
                             <h6 class="texto">Costo por persona</h6>
-                            <h5 class="texto">USD 299</h5>
+                            <h5 class="texto">USD 350</h5>
                             <span class="emphasized texto">Incluye tasas, impuestos y cargos..</span>
                             <div class="d-flex justify-content-end">
                               <a href="./florianopolis.html" class="packages-buttom texto">Ver mas</a>
@@ -235,8 +244,9 @@
                           </div>
                       </div>
                     </div>
+
                     <div class="card mx-2" style="width: 25%; border-radius: 3rem;">   
-                      <img src="./assets/img/destino-buzios.png" alt="" class="w-100 card-border">
+                      <img src="./assets/imagenes/destinosTuristicos/destino-buzios.png" alt="" class="w-100 card-border">
                       <div class="card-body carousel-package-box">
                           <div class="carousel-box-min">
                             <h4 class="card-title titulo">Buzios</h4>
@@ -244,16 +254,17 @@
                           </div>
                           <div class="top-border">
                             <h6 class="texto">Costo por persona</h6>
-                            <h5 class="texto">USD 299</h5>
+                            <h5 class="texto">----</h5>
                             <span class="emphasized texto">Incluye tasas, impuestos y cargos..</span>
                             <div class="d-flex justify-content-end">
-                              <a href="./buzios.html" class="packages-buttom texto">Ver mas</a>
+                              <div class="packages-buttom texto bg-grey">Vendido</div>
+                              <!--<a href="./buzios.html" class="packages-buttom texto">Ver mas</a>-->
                             </div>
                           </div>
                       </div>
                     </div>
                     <div class="card mx-2" style="width: 25%; border-radius: 3rem;">   
-                      <img src="./assets/img/destino-gesell.png" alt="" class="w-100 card-border">
+                      <img src="./assets/imagenes/destinosTuristicos/destino-gesell.png" alt="" class="w-100 card-border">
                       <div class="card-body carousel-package-box">
                           <div class="carousel-box-min">
                             <h4 class="card-title titulo">Villa Gesell</h4>
@@ -261,16 +272,17 @@
                           </div>
                           <div class="top-border">
                             <h6 class="texto">Costo por persona</h6>
-                            <h5 class="texto">USD 299</h5>
+                            <h5 class="texto">----</h5>
                             <span class="emphasized texto">Incluye tasas, impuestos y cargos..</span>
                             <div class="d-flex justify-content-end">
-                              <a href="./gesell.html" class="packages-buttom texto">Ver mas</a>
+                              <div class="packages-buttom texto bg-grey">Vendido</div>
+                              <!--<a href="./buzios.html" class="packages-buttom texto">Ver mas</a>-->
                             </div>
                           </div>
                       </div>
                     </div>
                     <div class="card mx-2" style="width: 25%; border-radius: 3rem;">   
-                      <img src="./assets/img/destino-pina.png" alt="" class="w-100 card-border">
+                      <img src="./assets/imagenes/destinosTuristicos/destino-pina.png" alt="" class="w-100 card-border">
                       <div class="card-body carousel-package-box">
                           <div class="carousel-box-min">
                             <h4 class="card-title titulo">Pinamar</h4>
@@ -278,17 +290,19 @@
                           </div>
                           <div class="top-border">
                             <h6 class="texto">Costo por persona</h6>
-                            <h5 class="texto">USD 299</h5>
+                            <h5 class="texto">----</h5>
                             <span class="emphasized texto">Incluye tasas, impuestos y cargos..</span>
                             <div class="d-flex justify-content-end">
-                              <a href="./pinamar.html" class="packages-buttom texto">Ver mas</a>
+                              <div class="packages-buttom texto bg-grey">Vendido</div>
+                              <!--<a href="./buzios.html" class="packages-buttom texto">Ver mas</a>-->
                             </div>
                           </div>
                       </div>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <!--
+              <div class="carousel-item">
               <div class="corousel-package">
 
                   <div class="card mx-2" style="width: 25%; border-radius: 3rem;">   
@@ -361,6 +375,9 @@
                   </div>
               </div>
           </div>
+
+            -->
+            
            
           </div>
 
@@ -375,22 +392,24 @@
           </button>
           
       </div>   
-</section>
+  </section>
 
-    <footer id="footer">
+<!----------------------------------------PIE DE PÁGINA------------------------------------>
+  <footer id="footer">
 
       <h1 class="titulo" >También podes encontrarnos en:</h1>
         
-         <div class="footer-box">
-          <a href=""><img src="./assets/icons/facebookfot.png" alt="" class="footer-icon  facebook-icon"></a>
-          <a href=""><img src="./assets/icons/wppfot-21.png" alt="" class="footer-icon"></a>
-          <a href=""><img src="./assets/icons/instagramfot.png" alt="" class="footer-icon"></a>
-          <a href=""><img src="./assets/icons/messengerfot.png" alt="" class="footer-icon"></a>
-         </div>
-      
-     </footer>
-     <h1 class="footer-titulo">DERECHOS RESERVADOS  - TERMINOS Y CONDICIONES</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+          <div class="footer-box">
+            <a href=""><img src="./assets/iconos/redes/footer/facebookfot.png"  alt="" class="footer-icon"></a>
+            <a href=""><img src="./assets/iconos/redes/footer/instagramfot.png" alt="" class="footer-icon"></a>
+            <a href=""><img src="./assets/iconos/redes/footer/messengerfot.png" alt="" class="footer-icon"></a>
+          </div>
+         
+  </footer>
+
+  <h1 class="footer-titulo">DERECHOS RESERVADOS</h1>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>

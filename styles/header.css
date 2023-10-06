@@ -49,7 +49,7 @@ header{
     left: 5.5%;
     top: 0%;
     border-radius: 50%;
-    background-image: url(./assets/icons/logo.png);
+    background-image: url(../assets/imagenes/generales/logo.png);
 }
 
 nav{
@@ -68,6 +68,10 @@ nav img:hover{
     filter: invert(78%) sepia(82%) saturate(613%) hue-rotate(317deg) brightness(102%) contrast(91%);
 }*/
 
+#whatsapp{
+cursor: pointer;
+}
+
 #btn-burger{
     display: none;
 }
@@ -79,7 +83,7 @@ nav img:hover{
 }
 .header_button{
     margin: 2rem 3rem 0 2rem;  
-    color: #FF6700;
+    color: #F3AF5A;
     text-decoration: none;
     text-align: center;
 }
@@ -127,7 +131,7 @@ nav img:hover{
     }
 
     nav{
-        background-image:  url(../assets/icons/burger-button.png);
+        background-image:  url(../assets/iconos/redes/header/burger-button.png);
         background-position:  center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -171,7 +175,6 @@ nav img:hover{
     {
         display: block;
     }
-
 
     .logo-llamada{
         width: 30px;

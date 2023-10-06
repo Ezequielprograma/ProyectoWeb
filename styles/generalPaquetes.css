@@ -49,6 +49,11 @@
     cursor: pointer;
     margin-top: 1rem;
     width: auto;
+    min-height: 50px;
+}
+
+.bg-grey{
+background: grey;
 }
 
 .emphasized { font-style: italic; }
