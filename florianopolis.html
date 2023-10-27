@@ -10,13 +10,11 @@
     <link rel="stylesheet" href="./styles/generalPaquetes.css">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/header.css">
-    
     <link rel="stylesheet" href="./styles/introduccion.css">
     <link rel="stylesheet" href="./styles/opiniones.css">
     <link rel="stylesheet" href="./styles/filtroPaquetes.css">
     <link rel="stylesheet" href="./styles/aboutUs.css">
     <link rel="stylesheet" href="./styles/contactUs.css">
-    
     <link rel="stylesheet" href="./styles/footer.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -26,7 +24,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Poppins:ital,wght@0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">    
     
-        
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
@@ -54,7 +51,7 @@
         <a id="btn-contactanos" class='header_button  text-decoration-none texto-botones' href="#contactUs">CONTACTANOS</a>
     
       <div class="btn-redondos">
-        <a id="whatsapp" href="https://api.whatsapp.com/send/?phone=541144372532" target="_blank" class="logo-llamada"> <img src="./assets/iconos/redes/header/iconowpp.png" alt="" class="logo-llamada"></a>
+        <a id="whatsapp" href="https://api.whatsapp.com/send/?phone=541122514560" target="_blank" class="logo-llamada"> <img src="./assets/iconos/redes/header/iconowpp.png" alt="" class="logo-llamada"></a>
         <a id="btn-videollamada" href="" class="logo-llamada"><img src="./assets/iconos/redes/header/iconovideollamada.png" alt=""  class="logo-llamada"></a>
       </div>
       
@@ -104,11 +101,15 @@
 
             <div class="singlePack-box-right">
               <form class="singlePack-form-box">
-                <h2 class="texto">Precio <br>$----</h2>
+                <div class="box-precios">
+                  <h2 class="texto">Precio</h2>
+                  <h3 class="texto" id="precio_final">$ 350</h2>
+                </div>
+               
                 
                 <div class="singlePack-form-box-2">
-                   <label for="semana"  class="input-precio texto"> <input type="radio" id="dolar" value="D" name="precio">USD</label>
-                   <label for="fin"  class="input-precio texto"> <input type="radio" id="peso" value="P" name="precio">ARS</label>
+                   <label for="semana"  class="input-precio texto"> <input type="radio" id="dolar" value="D" name="precio" onclick= dolarizar() onload=fechaAct()>USD</label>
+                   <label for="fin"  class="input-precio texto"> <input type="radio" id="peso" value="P" name="precio" onclick= pesificar()>ARS</label>
                 </div>
               </form>
 
@@ -408,7 +409,7 @@
   </footer>
 
   <h1 class="footer-titulo">DERECHOS RESERVADOS</h1>
-
+  <script src="./Javascript/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 

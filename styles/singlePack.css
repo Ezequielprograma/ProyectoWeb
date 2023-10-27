@@ -129,6 +129,12 @@
     height: 100px;
 }
 
+#box-precios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .singlePack-form-box h2{
     font-size: 1.5rem;
 }
